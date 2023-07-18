@@ -1,0 +1,27 @@
+{
+  "name": "Cyburrow",
+  "description": "Cyburrow is a legendary cyberpunk sharp-transporter that dominates the underground race tracks with its unbelievable speed and agility. With razor sharp blades, this sleek vehicle has an undeniable presence that sends ripples throughout the entire racing scene. Its ability to swerve and slide through the tightest turns with intense precision makes it the ultimate champion.",
+  "image": "ipfs://bafybeig35knndrotircqzo2f2n23vm6seraj3w6omsx4hdhsvpmlxtiwva/2.png",
+  "attributes": [
+    {
+      "trait_type": "Element",
+      "value": "Techno-blade"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Legendary"
+    },
+    {
+      "trait_type": "Speed",
+      "value": 65
+    },
+    {
+      "trait_type": "Acceleration",
+      "value": 50
+    },
+    {
+      "trait_type": "Maniability",
+      "value": 51
+    }
+  ]
+}

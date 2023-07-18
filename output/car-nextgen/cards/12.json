@@ -1,0 +1,27 @@
+{
+  "name": "Exaltar",
+  "description": "The Exaltar is a commanding presence that zooms across the terrain with a force like no other. Its advanced floating platform provides the perfect lift to traverse the most challenging of tracks. With an unparalleled acceleration and tight control, it blasts through turns at breakneck speeds, while its sheer power dominates all other competitors. Its performances leave the track enveloped in a whirlwind of dust and speed, leaving only a trail of awe and admiration in its wake.",
+  "image": "ipfs://bafybeig35knndrotircqzo2f2n23vm6seraj3w6omsx4hdhsvpmlxtiwva/12.png",
+  "attributes": [
+    {
+      "trait_type": "Element",
+      "value": "Hyper-force"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Uncommon"
+    },
+    {
+      "trait_type": "Speed",
+      "value": 57
+    },
+    {
+      "trait_type": "Acceleration",
+      "value": 44
+    },
+    {
+      "trait_type": "Maniability",
+      "value": 44
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Umbrabike",
+  "description": "The Umbrabike is a dark phantom of the night, capable of tearing through the darkest corners of an abandoned industrial complex. It moves with supernatural speed, leaving nothing but a wake of shadow and smoke in its path. Its sleek, angular frame gives it the edge in any race, and its powerful engines provide it the power to dominate every lap. With its cyberpunk design, the Umbrabike burns an unforgettable image into the minds of all who see it.",
+  "image": "ipfs://bafybeig35knndrotircqzo2f2n23vm6seraj3w6omsx4hdhsvpmlxtiwva/11.png",
+  "attributes": [
+    {
+      "trait_type": "Element",
+      "value": "Stealth-skull"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Mythic"
+    },
+    {
+      "trait_type": "Speed",
+      "value": 54
+    },
+    {
+      "trait_type": "Acceleration",
+      "value": 58
+    },
+    {
+      "trait_type": "Maniability",
+      "value": 64
+    }
+  ]
+}

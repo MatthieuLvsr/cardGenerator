@@ -1,0 +1,27 @@
+{
+  "name": "Viridis",
+  "description": "Viridis is an electric-powered drone-racer that has become the latest craze in the cyberpunk world. Its cutting-edge technology and lightning-fast speed have made it the envy of racers around the globe. Taking on the challenge of abandoned industrial zones, Viridis has become the top choice for daredevil-style races, soaring through the air with amazing agility and lightning-fast responsiveness. All who challenge it come away in awe of its abilities as it outmaneuvers its competitors and dominates the racing scene.",
+  "image": "ipfs://bafybeig35knndrotircqzo2f2n23vm6seraj3w6omsx4hdhsvpmlxtiwva/4.png",
+  "attributes": [
+    {
+      "trait_type": "Element",
+      "value": "Cyber-boost"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Rare"
+    },
+    {
+      "trait_type": "Speed",
+      "value": 48
+    },
+    {
+      "trait_type": "Acceleration",
+      "value": 63
+    },
+    {
+      "trait_type": "Maniability",
+      "value": 71
+    }
+  ]
+}

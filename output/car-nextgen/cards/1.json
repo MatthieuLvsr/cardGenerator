@@ -1,0 +1,27 @@
+{
+  "name": "Bladevox",
+  "description": "The Bladevox soars through the night sky, its futuristic silhouette blending into the star-strewn darkness. Glowing with cyberpunk energy, the Bladevox tears up the city streets and track, effortlessly navigating turns and weaving its way through tight corners. Its tapered lines and responsive acceleration make it a menacing and nimble opponent, and its iconic presence is sure to leave its mark on the race.",
+  "image": "ipfs://bafybeig35knndrotircqzo2f2n23vm6seraj3w6omsx4hdhsvpmlxtiwva/1.png",
+  "attributes": [
+    {
+      "trait_type": "Element",
+      "value": "Techno-blade"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Mythic"
+    },
+    {
+      "trait_type": "Speed",
+      "value": 49
+    },
+    {
+      "trait_type": "Acceleration",
+      "value": 52
+    },
+    {
+      "trait_type": "Maniability",
+      "value": 67
+    }
+  ]
+}

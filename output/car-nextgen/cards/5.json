@@ -1,0 +1,27 @@
+{
+  "name": "Urbanzaur",
+  "description": "This highly advanced cyberpunk musclecar is like nothing you've seen before in the urban jungle. Urbanzaur combines the raw power of a traditional vehicle with the biomechanical capabilities of the future, providing incredible acceleration and maneuverability on the race track. Its sleek, aerodynamic design cuts through the wind like a knife, allowing drivers to dominate the competition with blistering speed and undeniable style. Urbanzaur is the perfect vehicle for any cyberpunk looking to make their mark on the racing world.",
+  "image": "ipfs://bafybeig35knndrotircqzo2f2n23vm6seraj3w6omsx4hdhsvpmlxtiwva/5.png",
+  "attributes": [
+    {
+      "trait_type": "Element",
+      "value": "Bio-mech"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Rare"
+    },
+    {
+      "trait_type": "Speed",
+      "value": 35
+    },
+    {
+      "trait_type": "Acceleration",
+      "value": 39
+    },
+    {
+      "trait_type": "Maniability",
+      "value": 44
+    }
+  ]
+}

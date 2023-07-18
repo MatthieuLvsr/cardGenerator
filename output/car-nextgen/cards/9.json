@@ -1,0 +1,27 @@
+{
+  "name": "Futura",
+  "description": "Futura is where modern technology meets lightning-quick speed. Its two giant plasma tubes provide an unparalleled performance on the race track, rocketing this sleek and futuristic car to unheard of speeds. Its cutting edge technology gives it an edge, just enough for a driver to break records and reach the checkered flag first.",
+  "image": "ipfs://bafybeig35knndrotircqzo2f2n23vm6seraj3w6omsx4hdhsvpmlxtiwva/9.png",
+  "attributes": [
+    {
+      "trait_type": "Element",
+      "value": "Plasma-jet"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    },
+    {
+      "trait_type": "Speed",
+      "value": 52
+    },
+    {
+      "trait_type": "Acceleration",
+      "value": 50
+    },
+    {
+      "trait_type": "Maniability",
+      "value": 38
+    }
+  ]
+}

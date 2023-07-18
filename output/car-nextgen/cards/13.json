@@ -1,0 +1,27 @@
+{
+  "name": "Fulgor",
+  "description": "Fulgor is a menacing cyberpunk off-roader, built for the toughest industrial terrain. Its mechanical beastly features are sure to dominate the race track with its powerful engine and extreme maneuverability. With its heavy armor and imposing frame, Fulgor is a formidable opponent on any terrain, emitting an eerie glow and deep rumble from its powerful pistons. Look no further for a thrilling and intense ride for any cyberpunk enthusiast!",
+  "image": "ipfs://bafybeig35knndrotircqzo2f2n23vm6seraj3w6omsx4hdhsvpmlxtiwva/13.png",
+  "attributes": [
+    {
+      "trait_type": "Element",
+      "value": "Mech-beast"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    },
+    {
+      "trait_type": "Speed",
+      "value": 51
+    },
+    {
+      "trait_type": "Acceleration",
+      "value": 50
+    },
+    {
+      "trait_type": "Maniability",
+      "value": 59
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+[001] Bladevox
+Bladevox::0 a mythical techno-blade-type tapered sports-car cyberpunk::2, tapered, in futuristic skyscrapers, Bright light lines, anime sketch with cyan watercolor --niji 5 --ar 3:2
+
+[002] Cyburrow
+Cyburrow::0 a legendary techno-blade-type sharp armored-transporter cyberpunk::2, sharp, in underground tunnels, Neon blue lighting, anime sketch with cyan watercolor --niji 5 --ar 3:2
+
+[003] Virevoh
+Virevoh::0 a strong cyber-boost-type electrifying sedan cyberpunk::2, electrifying, in suspended futuristic highways, Dynamic and colorful lighting, anime sketch with light cyan watercolor --niji 5 --ar 3:2
+
+[004] Viridis
+Viridis::0 a special cyber-boost-type electrifying drone-racer cyberpunk::2, electrifying, in abandoned industrial zone, Dynamic and colorful lighting, anime sketch with light cyan watercolor --niji 5 --ar 3:2
+
+[005] Urbanzaur
+Urbanzaur::0 a rare bio-mech-type biomechanical musclecar cyberpunk::2, biomechanical, in urban jungle, Bioluminescent glow, anime sketch with light green watercolor --niji 5 --ar 3:2
+
+[006] Cypha
+Cypha::0 a epic electro-drive-type energy-intensive hypercar cyberpunk::2, energy-intensive, in high-tech electric charging station, Vivid electric lighting, anime sketch with yellow watercolor --niji 5 --ar 3:2
+
+[007] Cybermech
+Cybermech::0 a rare nano-racer-type miniature stealth-bike cyberpunk::2, miniature, in network of nanorobots, Abstract digital world backdrop, anime sketch with magenta watercolor --niji 5 --ar 3:2
+
+[008] Sprinx
+Sprinx::0 a mythical nano-racer-type programmable jet-racer cyberpunk::2, programmable, in quantum computer simulation, Abstract digital world backdrop, anime sketch with magenta watercolor --niji 5 --ar 3:2
+
+[009] Futura
+Futura::0 a basic plasma-jet-type plasma concept-car cyberpunk::2, in giant plasma tubes, Energetically torn sky background, anime sketch with purple watercolor --niji 5 --ar 3:2
+
+[010] Vortexer
+Vortexer::0 a legendary quantum-shift-type distorted superbike cyberpunk::2, distorted, in dimensional portals, Black hole and galaxy background, anime sketch with blue watercolor --niji 5 --ar 3:2
+
+[011] Umbrabike
+Umbrabike::0 a epic stealth-skull-type shadowy superbike cyberpunk::2, shadowy, in abandoned industrial complex, Smoke and fog effects, anime sketch with dark gray watercolor --niji 5 --ar 3:2
+
+[012] Exaltar
+Exaltar::0 a strong hyper-force-type overpowering off-road cyberpunk::2, overpowering, in floating platform above a precipice, Speed and motion effects, anime sketch with red watercolor --niji 5 --ar 3:2
+
+[013] Fulgor
+Fulgor::0 a simple mech-beast-type industrial off-road cyberpunk::2, in polluted industrial zone, Post-apocalyptic environments background, anime sketch with orange watercolor --niji 5 --ar 3:2
+
+[014] Rustruck
+Rustruck::0 a uncommon mech-beast-type mechanical musclecar cyberpunk::2, mechanical, in polluted industrial zone, Post-apocalyptic environments background, anime sketch with orange watercolor --niji 5 --ar 3:2
+

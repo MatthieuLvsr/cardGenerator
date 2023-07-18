@@ -1,0 +1,27 @@
+{
+  "name": "Vortexer",
+  "description": "Vortexer is a legendary cyberpunk distorted superbike that blurs the lines between the real and virtual worlds. With its cutting edge dimensional portal technology, it rips through dark alleys and neon-lit highways alike. Bold riders who dare take this risk reap the rewards of its radical acceleration and Quantum-Shift abilities, leaving all other bikes in its wake. This is a vehicle that will make even the toughest biker feel like they've hitched a ride on a portal to another universe.",
+  "image": "ipfs://bafybeig35knndrotircqzo2f2n23vm6seraj3w6omsx4hdhsvpmlxtiwva/10.png",
+  "attributes": [
+    {
+      "trait_type": "Element",
+      "value": "Quantum-shift"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Legendary"
+    },
+    {
+      "trait_type": "Speed",
+      "value": 93
+    },
+    {
+      "trait_type": "Acceleration",
+      "value": 60
+    },
+    {
+      "trait_type": "Maniability",
+      "value": 45
+    }
+  ]
+}

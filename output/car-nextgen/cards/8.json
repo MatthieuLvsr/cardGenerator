@@ -1,0 +1,27 @@
+{
+  "name": "Sprinx",
+  "description": "Sprinx is a mythical cyberpunk, a quantum computer simulation with unparalleled speed and agility. With its precise programming and tight turns, Sprinx reigns the race tracks, easily out-maneuvering its opponents. Every race it wins is a testament to its incredible capabilities, and even the most experienced racers can't help but marvel at its performance.",
+  "image": "ipfs://bafybeig35knndrotircqzo2f2n23vm6seraj3w6omsx4hdhsvpmlxtiwva/8.png",
+  "attributes": [
+    {
+      "trait_type": "Element",
+      "value": "Nano-racer"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Mythic"
+    },
+    {
+      "trait_type": "Speed",
+      "value": 72
+    },
+    {
+      "trait_type": "Acceleration",
+      "value": 41
+    },
+    {
+      "trait_type": "Maniability",
+      "value": 37
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Rustruck",
+  "description": "Rusting like a relic in a post-modern wasteland, Rustruck is a cyberpunk marvel. With its stack of rusted steel and cybernetically enhanced engine, Rustruck howls across the track like a beast of the old world. Its speed is unmatched, and its agility unparalleled; yet, it never fails to display a nostalgic finesse in its every cornering maneuver. Rustruck is truly the champion of the race track.",
+  "image": "ipfs://bafybeig35knndrotircqzo2f2n23vm6seraj3w6omsx4hdhsvpmlxtiwva/14.png",
+  "attributes": [
+    {
+      "trait_type": "Element",
+      "value": "Mech-beast"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Uncommon"
+    },
+    {
+      "trait_type": "Speed",
+      "value": 48
+    },
+    {
+      "trait_type": "Acceleration",
+      "value": 48
+    },
+    {
+      "trait_type": "Maniability",
+      "value": 38
+    }
+  ]
+}

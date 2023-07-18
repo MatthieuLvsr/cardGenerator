@@ -1,0 +1,27 @@
+{
+  "name": "Virevoh",
+  "description": "The Virevoh is an unstoppable force of lightning, soaring through the streets like a streak of white-hot energy. With its powerful cyber-enhancements, this sedan is capable of powering through the toughest races, reaching speeds that could rival even the swiftest of rivals. Its superior handling and lightning-quick reactions make it a cyberpunk's favorite in the race-track, leaving the competition stunned in its wake.",
+  "image": "ipfs://bafybeig35knndrotircqzo2f2n23vm6seraj3w6omsx4hdhsvpmlxtiwva/3.png",
+  "attributes": [
+    {
+      "trait_type": "Element",
+      "value": "Cyber-boost"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Uncommon"
+    },
+    {
+      "trait_type": "Speed",
+      "value": 49
+    },
+    {
+      "trait_type": "Acceleration",
+      "value": 53
+    },
+    {
+      "trait_type": "Maniability",
+      "value": 64
+    }
+  ]
+}

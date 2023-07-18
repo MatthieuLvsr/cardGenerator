@@ -1,0 +1,27 @@
+{
+  "name": "Cypha",
+  "description": "The Cypha is an epic, cyberpunk-inspired hypercar that is sure to leave its mark on the race track. It combines raw energy with an advanced, electric-charging system to rocket it past its competitors. Its sleek exterior belies its powerful interior that is designed to be both efficient and responsive. In the hands of the right driver, the Cypha will be an unstoppable force on the track.",
+  "image": "ipfs://bafybeig35knndrotircqzo2f2n23vm6seraj3w6omsx4hdhsvpmlxtiwva/6.png",
+  "attributes": [
+    {
+      "trait_type": "Element",
+      "value": "Electro-drive"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Mythic"
+    },
+    {
+      "trait_type": "Speed",
+      "value": 65
+    },
+    {
+      "trait_type": "Acceleration",
+      "value": 50
+    },
+    {
+      "trait_type": "Maniability",
+      "value": 69
+    }
+  ]
+}

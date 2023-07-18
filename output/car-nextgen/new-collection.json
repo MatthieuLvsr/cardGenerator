@@ -1,0 +1,383 @@
+{
+  "collection_name": "new-collection",
+  "cards": [
+    {
+      "name": "Bladevox",
+      "description": "The Bladevox soars through the night sky, its futuristic silhouette blending into the star-strewn darkness. Glowing with cyberpunk energy, the Bladevox tears up the city streets and track, effortlessly navigating turns and weaving its way through tight corners. Its tapered lines and responsive acceleration make it a menacing and nimble opponent, and its iconic presence is sure to leave its mark on the race.",
+      "image": "ipfs://bafybeig35knndrotircqzo2f2n23vm6seraj3w6omsx4hdhsvpmlxtiwva/1.png",
+      "attributes": [
+        {
+          "trait_type": "Element",
+          "value": "Techno-blade"
+        },
+        {
+          "trait_type": "Rarity",
+          "value": "Mythic"
+        },
+        {
+          "trait_type": "Speed",
+          "value": 49
+        },
+        {
+          "trait_type": "Acceleration",
+          "value": 52
+        },
+        {
+          "trait_type": "Maniability",
+          "value": 67
+        }
+      ]
+    },
+    {
+      "name": "Cyburrow",
+      "description": "Cyburrow is a legendary cyberpunk sharp-transporter that dominates the underground race tracks with its unbelievable speed and agility. With razor sharp blades, this sleek vehicle has an undeniable presence that sends ripples throughout the entire racing scene. Its ability to swerve and slide through the tightest turns with intense precision makes it the ultimate champion.",
+      "image": "ipfs://bafybeig35knndrotircqzo2f2n23vm6seraj3w6omsx4hdhsvpmlxtiwva/2.png",
+      "attributes": [
+        {
+          "trait_type": "Element",
+          "value": "Techno-blade"
+        },
+        {
+          "trait_type": "Rarity",
+          "value": "Legendary"
+        },
+        {
+          "trait_type": "Speed",
+          "value": 65
+        },
+        {
+          "trait_type": "Acceleration",
+          "value": 50
+        },
+        {
+          "trait_type": "Maniability",
+          "value": 51
+        }
+      ]
+    },
+    {
+      "name": "Virevoh",
+      "description": "The Virevoh is an unstoppable force of lightning, soaring through the streets like a streak of white-hot energy. With its powerful cyber-enhancements, this sedan is capable of powering through the toughest races, reaching speeds that could rival even the swiftest of rivals. Its superior handling and lightning-quick reactions make it a cyberpunk's favorite in the race-track, leaving the competition stunned in its wake.",
+      "image": "ipfs://bafybeig35knndrotircqzo2f2n23vm6seraj3w6omsx4hdhsvpmlxtiwva/3.png",
+      "attributes": [
+        {
+          "trait_type": "Element",
+          "value": "Cyber-boost"
+        },
+        {
+          "trait_type": "Rarity",
+          "value": "Uncommon"
+        },
+        {
+          "trait_type": "Speed",
+          "value": 49
+        },
+        {
+          "trait_type": "Acceleration",
+          "value": 53
+        },
+        {
+          "trait_type": "Maniability",
+          "value": 64
+        }
+      ]
+    },
+    {
+      "name": "Viridis",
+      "description": "Viridis is an electric-powered drone-racer that has become the latest craze in the cyberpunk world. Its cutting-edge technology and lightning-fast speed have made it the envy of racers around the globe. Taking on the challenge of abandoned industrial zones, Viridis has become the top choice for daredevil-style races, soaring through the air with amazing agility and lightning-fast responsiveness. All who challenge it come away in awe of its abilities as it outmaneuvers its competitors and dominates the racing scene.",
+      "image": "ipfs://bafybeig35knndrotircqzo2f2n23vm6seraj3w6omsx4hdhsvpmlxtiwva/4.png",
+      "attributes": [
+        {
+          "trait_type": "Element",
+          "value": "Cyber-boost"
+        },
+        {
+          "trait_type": "Rarity",
+          "value": "Rare"
+        },
+        {
+          "trait_type": "Speed",
+          "value": 48
+        },
+        {
+          "trait_type": "Acceleration",
+          "value": 63
+        },
+        {
+          "trait_type": "Maniability",
+          "value": 71
+        }
+      ]
+    },
+    {
+      "name": "Urbanzaur",
+      "description": "This highly advanced cyberpunk musclecar is like nothing you've seen before in the urban jungle. Urbanzaur combines the raw power of a traditional vehicle with the biomechanical capabilities of the future, providing incredible acceleration and maneuverability on the race track. Its sleek, aerodynamic design cuts through the wind like a knife, allowing drivers to dominate the competition with blistering speed and undeniable style. Urbanzaur is the perfect vehicle for any cyberpunk looking to make their mark on the racing world.",
+      "image": "ipfs://bafybeig35knndrotircqzo2f2n23vm6seraj3w6omsx4hdhsvpmlxtiwva/5.png",
+      "attributes": [
+        {
+          "trait_type": "Element",
+          "value": "Bio-mech"
+        },
+        {
+          "trait_type": "Rarity",
+          "value": "Rare"
+        },
+        {
+          "trait_type": "Speed",
+          "value": 35
+        },
+        {
+          "trait_type": "Acceleration",
+          "value": 39
+        },
+        {
+          "trait_type": "Maniability",
+          "value": 44
+        }
+      ]
+    },
+    {
+      "name": "Cypha",
+      "description": "The Cypha is an epic, cyberpunk-inspired hypercar that is sure to leave its mark on the race track. It combines raw energy with an advanced, electric-charging system to rocket it past its competitors. Its sleek exterior belies its powerful interior that is designed to be both efficient and responsive. In the hands of the right driver, the Cypha will be an unstoppable force on the track.",
+      "image": "ipfs://bafybeig35knndrotircqzo2f2n23vm6seraj3w6omsx4hdhsvpmlxtiwva/6.png",
+      "attributes": [
+        {
+          "trait_type": "Element",
+          "value": "Electro-drive"
+        },
+        {
+          "trait_type": "Rarity",
+          "value": "Mythic"
+        },
+        {
+          "trait_type": "Speed",
+          "value": 65
+        },
+        {
+          "trait_type": "Acceleration",
+          "value": 50
+        },
+        {
+          "trait_type": "Maniability",
+          "value": 69
+        }
+      ]
+    },
+    {
+      "name": "Cybermech",
+      "description": "The Cybermech is a rare and revolutionary racing machine. Its revolutionary nanorobot network, combined with its ultra-fast engines and advanced tech, make it a powerhouse in the racing world. Its sleek curves cut through the wind, providing unparalleled speed and agility. Its state-of-the-art electronics ensure that its every move is calculated and precise. The Cybermech is the only racer that can truly give you victory in the tightest of races.",
+      "image": "ipfs://bafybeig35knndrotircqzo2f2n23vm6seraj3w6omsx4hdhsvpmlxtiwva/7.png",
+      "attributes": [
+        {
+          "trait_type": "Element",
+          "value": "Nano-racer"
+        },
+        {
+          "trait_type": "Rarity",
+          "value": "Rare"
+        },
+        {
+          "trait_type": "Speed",
+          "value": 34
+        },
+        {
+          "trait_type": "Acceleration",
+          "value": 46
+        },
+        {
+          "trait_type": "Maniability",
+          "value": 56
+        }
+      ]
+    },
+    {
+      "name": "Sprinx",
+      "description": "Sprinx is a mythical cyberpunk, a quantum computer simulation with unparalleled speed and agility. With its precise programming and tight turns, Sprinx reigns the race tracks, easily out-maneuvering its opponents. Every race it wins is a testament to its incredible capabilities, and even the most experienced racers can't help but marvel at its performance.",
+      "image": "ipfs://bafybeig35knndrotircqzo2f2n23vm6seraj3w6omsx4hdhsvpmlxtiwva/8.png",
+      "attributes": [
+        {
+          "trait_type": "Element",
+          "value": "Nano-racer"
+        },
+        {
+          "trait_type": "Rarity",
+          "value": "Mythic"
+        },
+        {
+          "trait_type": "Speed",
+          "value": 72
+        },
+        {
+          "trait_type": "Acceleration",
+          "value": 41
+        },
+        {
+          "trait_type": "Maniability",
+          "value": 37
+        }
+      ]
+    },
+    {
+      "name": "Futura",
+      "description": "Futura is where modern technology meets lightning-quick speed. Its two giant plasma tubes provide an unparalleled performance on the race track, rocketing this sleek and futuristic car to unheard of speeds. Its cutting edge technology gives it an edge, just enough for a driver to break records and reach the checkered flag first.",
+      "image": "ipfs://bafybeig35knndrotircqzo2f2n23vm6seraj3w6omsx4hdhsvpmlxtiwva/9.png",
+      "attributes": [
+        {
+          "trait_type": "Element",
+          "value": "Plasma-jet"
+        },
+        {
+          "trait_type": "Rarity",
+          "value": "Common"
+        },
+        {
+          "trait_type": "Speed",
+          "value": 52
+        },
+        {
+          "trait_type": "Acceleration",
+          "value": 50
+        },
+        {
+          "trait_type": "Maniability",
+          "value": 38
+        }
+      ]
+    },
+    {
+      "name": "Vortexer",
+      "description": "Vortexer is a legendary cyberpunk distorted superbike that blurs the lines between the real and virtual worlds. With its cutting edge dimensional portal technology, it rips through dark alleys and neon-lit highways alike. Bold riders who dare take this risk reap the rewards of its radical acceleration and Quantum-Shift abilities, leaving all other bikes in its wake. This is a vehicle that will make even the toughest biker feel like they've hitched a ride on a portal to another universe.",
+      "image": "ipfs://bafybeig35knndrotircqzo2f2n23vm6seraj3w6omsx4hdhsvpmlxtiwva/10.png",
+      "attributes": [
+        {
+          "trait_type": "Element",
+          "value": "Quantum-shift"
+        },
+        {
+          "trait_type": "Rarity",
+          "value": "Legendary"
+        },
+        {
+          "trait_type": "Speed",
+          "value": 93
+        },
+        {
+          "trait_type": "Acceleration",
+          "value": 60
+        },
+        {
+          "trait_type": "Maniability",
+          "value": 45
+        }
+      ]
+    },
+    {
+      "name": "Umbrabike",
+      "description": "The Umbrabike is a dark phantom of the night, capable of tearing through the darkest corners of an abandoned industrial complex. It moves with supernatural speed, leaving nothing but a wake of shadow and smoke in its path. Its sleek, angular frame gives it the edge in any race, and its powerful engines provide it the power to dominate every lap. With its cyberpunk design, the Umbrabike burns an unforgettable image into the minds of all who see it.",
+      "image": "ipfs://bafybeig35knndrotircqzo2f2n23vm6seraj3w6omsx4hdhsvpmlxtiwva/11.png",
+      "attributes": [
+        {
+          "trait_type": "Element",
+          "value": "Stealth-skull"
+        },
+        {
+          "trait_type": "Rarity",
+          "value": "Mythic"
+        },
+        {
+          "trait_type": "Speed",
+          "value": 54
+        },
+        {
+          "trait_type": "Acceleration",
+          "value": 58
+        },
+        {
+          "trait_type": "Maniability",
+          "value": 64
+        }
+      ]
+    },
+    {
+      "name": "Exaltar",
+      "description": "The Exaltar is a commanding presence that zooms across the terrain with a force like no other. Its advanced floating platform provides the perfect lift to traverse the most challenging of tracks. With an unparalleled acceleration and tight control, it blasts through turns at breakneck speeds, while its sheer power dominates all other competitors. Its performances leave the track enveloped in a whirlwind of dust and speed, leaving only a trail of awe and admiration in its wake.",
+      "image": "ipfs://bafybeig35knndrotircqzo2f2n23vm6seraj3w6omsx4hdhsvpmlxtiwva/12.png",
+      "attributes": [
+        {
+          "trait_type": "Element",
+          "value": "Hyper-force"
+        },
+        {
+          "trait_type": "Rarity",
+          "value": "Uncommon"
+        },
+        {
+          "trait_type": "Speed",
+          "value": 57
+        },
+        {
+          "trait_type": "Acceleration",
+          "value": 44
+        },
+        {
+          "trait_type": "Maniability",
+          "value": 44
+        }
+      ]
+    },
+    {
+      "name": "Fulgor",
+      "description": "Fulgor is a menacing cyberpunk off-roader, built for the toughest industrial terrain. Its mechanical beastly features are sure to dominate the race track with its powerful engine and extreme maneuverability. With its heavy armor and imposing frame, Fulgor is a formidable opponent on any terrain, emitting an eerie glow and deep rumble from its powerful pistons. Look no further for a thrilling and intense ride for any cyberpunk enthusiast!",
+      "image": "ipfs://bafybeig35knndrotircqzo2f2n23vm6seraj3w6omsx4hdhsvpmlxtiwva/13.png",
+      "attributes": [
+        {
+          "trait_type": "Element",
+          "value": "Mech-beast"
+        },
+        {
+          "trait_type": "Rarity",
+          "value": "Common"
+        },
+        {
+          "trait_type": "Speed",
+          "value": 51
+        },
+        {
+          "trait_type": "Acceleration",
+          "value": 50
+        },
+        {
+          "trait_type": "Maniability",
+          "value": 59
+        }
+      ]
+    },
+    {
+      "name": "Rustruck",
+      "description": "Rusting like a relic in a post-modern wasteland, Rustruck is a cyberpunk marvel. With its stack of rusted steel and cybernetically enhanced engine, Rustruck howls across the track like a beast of the old world. Its speed is unmatched, and its agility unparalleled; yet, it never fails to display a nostalgic finesse in its every cornering maneuver. Rustruck is truly the champion of the race track.",
+      "image": "ipfs://bafybeig35knndrotircqzo2f2n23vm6seraj3w6omsx4hdhsvpmlxtiwva/14.png",
+      "attributes": [
+        {
+          "trait_type": "Element",
+          "value": "Mech-beast"
+        },
+        {
+          "trait_type": "Rarity",
+          "value": "Uncommon"
+        },
+        {
+          "trait_type": "Speed",
+          "value": 48
+        },
+        {
+          "trait_type": "Acceleration",
+          "value": 48
+        },
+        {
+          "trait_type": "Maniability",
+          "value": 38
+        }
+      ]
+    }
+  ]
+}
