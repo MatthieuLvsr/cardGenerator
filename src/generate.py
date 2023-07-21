@@ -23,10 +23,10 @@ def main():
     argparser = argparse.ArgumentParser()
     argparser.add_argument(
         "-n",
-        "--n_monsters",
+        "--cars",
         type=int,
         default=1,
-        help="Number of monsters to generate per element.",
+        help="Number of cars to generate per element.",
     )
 
     argparser.add_argument(
@@ -35,7 +35,7 @@ def main():
         type=str,
         default=None,
         choices=[e.name.lower() for e in CarElements.ALL],
-        help="Which element to generate monsters for.",
+        help="Which element to generate cars for.",
     )
 
     argparser.add_argument(
@@ -43,7 +43,7 @@ def main():
         "--subject",
         type=str,
         default=None,
-        help="What type of monster to generate (e.g. monkey, dragon, etc.).",
+        help="What type of car to generate (e.g. monkey, dragon, etc.).",
     )
 
     argparser.add_argument(
@@ -55,7 +55,7 @@ def main():
     )
 
     args = argparser.parse_args()
-    number_of_monsters = args.n_monsters
+    number_of_cars = args.n_cars
     element_name = args.element
     subject_override = args.subject
     collection_name = args.collection
@@ -87,18 +87,18 @@ def main():
         all_elements = current_collection.elements
 
         if element is None:
-            n_monsters_to_generate = number_of_monsters * len(all_elements)
+            n_cars_to_generate = number_of_cars * len(all_elements)
         else:
-            n_monsters_to_generate = number_of_monsters
+            n_cars_to_generate = number_of_cars
 
-        for i in range(n_monsters_to_generate):
+        for i in range(n_cars_to_generate):
             current_element = (
                 element if element else all_elements[i % len(all_elements)]
             )
-            monsters = current_collection.generate_random_cards(
+            cars = current_collection.generate_random_cards(
                 element=current_element, subject_override=subject_override
             )
-            print(*monsters, sep="\n\n")
+            print(*cars, sep="\n\n")
         current_collection.export()
 
 

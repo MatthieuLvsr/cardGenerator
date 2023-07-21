@@ -102,7 +102,7 @@ def generate_card_name(card: Card, seen_names: set[str]) -> str:
 
 
 def generate_desc(card: Card) -> str:
-    # Generate a name for the monster.
+    # Generate a name for the car.
     if gpt_client().is_openai_enabled:
         prompt = f"Generate a short, original, creative description for {card.name}, {get_visual_description(card)}. "
         # prompt += f"It has the following stats: {', '.join([ability.name for ability in card.abilities])}. "

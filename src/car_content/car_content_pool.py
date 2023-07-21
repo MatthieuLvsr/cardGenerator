@@ -115,121 +115,40 @@ JET_ENGINE = [
     WITH_GRAVITIC_PROPULSION,
 ]
 
-
-# SEDAN = CarType("sedan", [
-#     WITH_BULLETPROOF_GLASS,
-#     WITH_REINFORCED_PLATING,
-#     WITH_LED_LIGHTS,
-# ])
-
 SEDAN = CarType("sedan")
 
-# SUV = CarType("SUV", [
-#     WITH_BULLETPROOF_GLASS,
-#     WITH_REINFORCED_PLATING,
-#     WITH_ENERGY_ABSORBING_SHIELD,
-# ])
-
-# SUV = CarType("SUV")
-
-# SPORTS_CAR = CarType("sports-car", [
-#     WITH_MISSILE_LAUNCHER,
-#     WITH_MACHINE_GUN,
-#     WITH_PLASMA_CANNON,
-#     WITH_RAILGUN,
-#     WITH_ENERGY_BEAM_EMITTER,
-#     WITH_GRENADE_LAUNCHER,
-#     WITH_XENON_HEADLIGHTS,
-# ])
 SPORTS_CAR = CarType("sports-car")
 
-# TRUCK = CarType("truck", [
-#     WITH_BULLETPROOF_GLASS,
-#     WITH_REINFORCED_PLATING,
-#     WITH_DUAL_EXHAUST_PIPES,
-# ])
-# TRUCK = CarType("truck")
-
-# MUSCLECAR = CarType("musclecar", [
-#     WITH_MISSILE_LAUNCHER,
-#     WITH_MACHINE_GUN,
-#     WITH_PLASMA_CANNON,
-#     WITH_RAILGUN,
-#     WITH_ENERGY_BEAM_EMITTER,
-#     WITH_GRENADE_LAUNCHER,
-#     WITH_FLAMING_EXHAUST,
-# ])
 MUSCLECAR = CarType("musclecar")
 
-# SUPERBIKE = CarType("superbike", [
-#     WITH_TURBO_THRUSTER,
-#     WITH_SMOKE_EMITTING_EXHAUST,
-# ])
 SUPERBIKE = CarType("superbike")
 
-# CONCEPT_CAR = CarType("concept-car", [
-#     WITH_AFTERBURNER,
-#     WITH_BULLETPROOF_GLASS,
-# ])
 CONCEPT_CAR = CarType("concept-car")
 
-# DRONE_RACER = CarType("drone-racer", [
-#     WITH_QUANTUM_GENERATOR,
-#     WITH_STREAMLINED_FINS,
-# ])
 DRONE_RACER = CarType("drone-racer")
 
-# OFF_ROAD = CarType("off-road", [
-#     WITH_REINFORCED_PLATING,
-#     WITH_HYDRODYNAMIC_FINS,
-# ])
 OFF_ROAD = CarType("off-road")
 
-# ARMORED_TRANSPORTER = CarType("armored-transporter", [
-#     WITH_REINFORCED_PLATING,
-#     WITH_ENERGY_ABSORBING_SHIELD,
-#     WITH_RAILGUN,
-# ])
 ARMORED_TRANSPORTER = CarType("armored-transporter")
 
-# HYPERCAR = CarType("hypercar", [
-#     WITH_FUSION_REACTOR,
-#     WITH_PLASMA_ENGINE,
-# ])
 HYPERCAR = CarType("hypercar")
 
-# HOVERCRAFT = CarType("hovercraft", [
-#     WITH_ENERGY_ABSORBING_SHIELD,
-#     WITH_HYDRODYNAMIC_FINS,
-#     WITH_SONAR_FINS,
-# ])
 HOVERCRAFT = CarType("hovercraft")
 
-# JET_RACER = CarType("jet-racer", [
-#     WITH_PLASMA_ENGINE,
-#     WITH_AFTERBURNER,
-# ])
 JET_RACER = CarType("jet-racer")
 
-# STEALTH_BIKE = CarType("stealth-bike", [
-#     WITH_SMOKE_EMITTING_EXHAUST,
-#     WITH_SONAR_FINS,
-# ])
 STEALTH_BIKE = CarType("stealth-bike")
 
 
 TECHNO_BLADE = [SEDAN,SPORTS_CAR,MUSCLECAR,SUPERBIKE,ARMORED_TRANSPORTER,JET_RACER]
 CYBER_BOOST = [SEDAN,SPORTS_CAR,MUSCLECAR,SUPERBIKE,CONCEPT_CAR,DRONE_RACER,HOVERCRAFT,STEALTH_BIKE]
-# BIO_MECH = [SEDAN,SUV,TRUCK,MUSCLECAR,CONCEPT_CAR,HOVERCRAFT]
 BIO_MECH = [SEDAN,  MUSCLECAR,CONCEPT_CAR,HOVERCRAFT]
 ELECTRO_DRIVE = [SEDAN,SPORTS_CAR,MUSCLECAR,CONCEPT_CAR,HYPERCAR]
 NANO_RACER = [SUPERBIKE,CONCEPT_CAR,HYPERCAR,JET_RACER,STEALTH_BIKE]
 PLASMA_JET = [MUSCLECAR,SUPERBIKE,CONCEPT_CAR,DRONE_RACER,HYPERCAR,JET_RACER,STEALTH_BIKE]
 QUANTUM_SHIFT = [SPORTS_CAR,MUSCLECAR,SUPERBIKE,CONCEPT_CAR,DRONE_RACER,HYPERCAR,STEALTH_BIKE]
 STEALTH_SKULL = [SUPERBIKE,DRONE_RACER,HYPERCAR,JET_RACER,STEALTH_BIKE]
-# HYPER_FORCE = [SEDAN,SUV,SPORTS_CAR,TRUCK,MUSCLECAR,OFF_ROAD,ARMORED_TRANSPORTER]
 HYPER_FORCE = [SEDAN,SPORTS_CAR,MUSCLECAR,OFF_ROAD,ARMORED_TRANSPORTER]
-# MECH_BEAST = [SUV,TRUCK,MUSCLECAR,OFF_ROAD,ARMORED_TRANSPORTER,STEALTH_BIKE]
 MECH_BEAST = [MUSCLECAR,OFF_ROAD,ARMORED_TRANSPORTER,STEALTH_BIKE]
 
 MODELS_BY_TYPE = {
@@ -244,59 +163,6 @@ MODELS_BY_TYPE = {
     CarElements.HYPER_FORCE: HYPER_FORCE,
     CarElements.MECH_BEAST: MECH_BEAST,
 }
-
-# ENVIRONMENTS_BY_TYPE = {
-# CarElements.TECHNO_BLADE: [
-# "narrow and winding streets of a cyberpunk metropolis",
-# "a network of labyrinthine underground tunnels",
-# "an urban maze of intertwined buildings and futuristic skyscrapers",
-# ],
-# CarElements.CYBER_BOOST: [
-# "futuristic highways suspended in the air",
-# "a gravity-defying race track inside a transparent dome",
-# "a circuit winding through an abandoned industrial zone",
-# ],
-# CarElements.BIO_MECH: [
-# "an urban jungle where nature has reclaimed the city",
-# "a secret laboratory filled with tubes and containers of genetic experiments",
-# "a post-apocalyptic landscape with cybernetic ruins overrun by vegetation",
-# ],
-# CarElements.ELECTRO_DRIVE: [
-# "a high-tech electric charging station in the heart of the city",
-# "a race through a field of giant wind turbines and solar panels",
-# "an electromagnetically charged track where vehicles glide frictionlessly",
-# ],
-# CarElements.NANO_RACER: [
-# "a circuit through a network of nanorobots, where trajectories can transform at any moment",
-# "a race inside a quantum computer, with moving fractal graphics",
-# "an immersive virtual environment created by virtual reality",
-# ],
-# CarElements.PLASMA_JET: [
-# "an urban desert with columns of fire and plasma storms",
-# "a race through giant plasma tubes, where pilots must avoid deadly energy bolts",
-# "a track located atop a plasma tower, featuring high-speed loops and jumps",
-# ],
-# CarElements.QUANTUM_SHIFT: [
-# "a race through dimensional portals, where vehicles instantly shift from one point to another",
-# "a circuit immersed in intense gravitational fields, where pilots must master spatio-temporal distortions",
-# "a track built around a black hole, with extreme gravitational forces",
-# ],
-# CarElements.STEALTH_SKULL: [
-# "a race in a dark and rainy quarter of the city, with narrow alleys and flickering neons",
-# "a circuit through an abandoned industrial complex, with dark areas and motion detectors",
-# "a nocturnal urban environment, with luminous holograms and shadows concealing traps",
-# ],
-# CarElements.HYPER_FORCE: [
-# "a race on a floating platform above a precipice, with daring jumps and tight turns",
-# "a circuit in a secret military compound, with dynamic obstacles and containment areas",
-# "a cyberpunk battlefield, with explosions and debris littering the ground",
-# ],
-# CarElements.MECH_BEAST: [
-# "a race through a polluted industrial zone, with toxic fumes and giant machinery",
-# "a devastated urban battlefield, with debris and collapsed buildings",
-# "a track set within a robot production facility, with assembly lines and moving mechanical arms",
-# ],
-# }
 
 ENVIRONMENTS_BY_TYPE = {
 CarElements.TECHNO_BLADE: [
@@ -469,15 +335,6 @@ def get_rarity_adjectives_set(rarity_index: int) -> set[str]:
         return {""}
     
 def get_style_suffix(element: Element | None) -> set[str]:
-    # if series_index == 0:
-    #     return {"anime chibi drawing style, pastel background"}
-    # if series_index == 1:
-    #     return {"anime sketch with watercolor"}
-    # if series_index == 2:
-    #     return {"polished final by studio ghibli"}
-    # else:
-    #     return {"anime sketch"}
-    # return {"polished final by studio ghibli"}
     return {f"anime sketch with {get_color(element)} watercolor"}
     
 def get_random_style_suffix(element: Element | None) -> str:
@@ -507,13 +364,8 @@ def get_color(element: Element) -> set[str]:
 
 
 def get_random_ambience(element: Element) -> str:
-    # Get a random ambience, but don't return the last one, which is for fully evolved pokemon.
     return random.choice(AMBIENCE_BY_TYPE.get(element)[:-1])
 
 
 def get_random_detail_adjective(element: Element) -> str:
-    # joined_adjectives = GLOBAL_DETAIL_ADJECTIVES + DETAIL_ADJECTIVES_BY_TYPE.get(
-    #     element
-    # )
-    # return random.choice(joined_adjectives)
     return random.choice(DETAIL_ADJECTIVES_BY_TYPE.get(element))

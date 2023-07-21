@@ -30,7 +30,6 @@ from util.gpt_call import gpt_client
 class CarCollection(Collection):
 
     BASE_POINTS = 4
-    ABILITY_TO_HP_PTS = 2  # 1 ability cost is worth 2 HP points.
     NEUTRAL_ELEMENT_CHANCE = 0.5
     MIXED_ELEMENT_CHANCE = 0.5
 
@@ -39,30 +38,12 @@ class CarCollection(Collection):
         element: Element,
         rarity: Rarity,
         inherited_style: Style = None,
-        # series_index: int | None = None,
         subject_override: str = None,
     ) -> Card:
 
-        # is_part_of_series = series_index is not None
-        # if is_part_of_series:
-        #     max_ability_points = self.get_points_budget(rarity.index, series_index)
-        # else:
-        #     max_ability_points = self.get_points_budget(rarity.index, 1)
-
-        # hp_points = random.randint(0, max_ability_points // 2)
         speed_points = random.randint(25,50)
         acceleration_points = random.randint(25,50)
         maniability_points = random.randint(25,50)
-        # ability_points = max_ability_points - hp_points
-        # ability_costs = self.get_ability_points_costs(ability_points, rarity.index)
-        # abilities = self.generate_abilities(element, ability_costs)
-
-        # for ability in abilities:
-        #     ability.name = get_ability_name(ability)
-
-        # Calculate HP
-        # bonus_hp_points = max_ability_points + (hp_points * self.ABILITY_TO_HP_PTS)
-        # hp = 10 * bonus_hp_points
         speed = speed_points + random.randint(0,10) + random.randint(0,rarity.index * 10)
         acceleration = acceleration_points + random.randint(0,10) + random.randint(0,rarity.index * 10)
         maniability = maniability_points + random.randint(0,10) + random.randint(0,rarity.index * 10)
@@ -114,7 +95,7 @@ class CarCollection(Collection):
 
         style.subject_type = self.theme_style.subject_type
 
-        # Pick the card's subject (creature type)
+        # Pick the card's subject (car type)
         if inherited_style is not None:
             style.subject = inherited_style.subject
             style.subject_adjectives = inherited_style.subject_adjectives
@@ -140,9 +121,7 @@ class CarCollection(Collection):
             if len(reduced_details) == 0:
                 reduced_details = potential_details
 
-            # detail = random.choice(list(reduced_details))
             detail_adjective = get_random_detail_adjective(element=element)
-            # style.detail = detail.text(detail_adjective)
             style.detail = detail_adjective
 
             # Pick the environment
@@ -154,12 +133,6 @@ class CarCollection(Collection):
         # series_prefix = get_random_series_adjective(series_index)
         element_prefix = f"{element.name.lower()}-type"
 
-        # if series_index is not None:
-        #     size_prefix = series_prefix
-        #     if rarity.index >= 2:
-        #         size_prefix += f" {rarity_prefix}"
-        # else:
-        #     size_prefix = rarity_prefix
         size_prefix = rarity_prefix
 
         style.subject_adjectives = [
@@ -169,12 +142,6 @@ class CarCollection(Collection):
             style.detail
         ]
 
-        # Set the ambience
-        # if rarity.index >= 2 and series_index == 2:
-        #     # Use the last background for the final card in the series.
-        #     style.ambience = AMBIENCE_BY_ELEMENT.get(element)[-1]
-        # else:
-            # style.ambience = get_random_ambience(element)
         style.ambience = get_random_ambience(element)
 
         # Set the style suffix
@@ -184,58 +151,3 @@ class CarCollection(Collection):
         )
 
         return style
-
-    # def generate_abilities(self, element: Element, ability_costs: list[int]):
-    #     abilities = []
-    #     for i, cost in enumerate(ability_costs):
-    #         is_primary = i == 0
-    #         if (
-    #             not is_primary
-    #             and random.random() < PokemonCollection.NEUTRAL_ELEMENT_CHANCE
-    #         ):
-    #             ability_element = self.get_default_element()
-    #         else:
-    #             ability_element = element
-
-    #         ability = PokemonCollection.generate_ability(ability_element, cost)
-    #         abilities.append(ability)
-    #     return abilities
-
-    # @staticmethod
-    # def get_points_budget(rarity_index: int, series_index: int) -> int:
-    #     # Cards in a series start weaker, but get stronger as the series progresses.
-    #     rarity_bonus = rarity_index
-    #     series_bonus = series_index - 1
-    #     return PokemonCollection.BASE_POINTS + rarity_bonus + series_bonus
-
-    # @staticmethod
-    # def generate_ability(element: Element, cost: int) -> Ability:
-
-    #     is_mix = (
-    #         not element.is_neutral
-    #         and cost > 1
-    #         and (random.random() < PokemonCollection.MIXED_ELEMENT_CHANCE)
-    #     )
-    #     ability = Ability(
-    #         name="New Ability", element=element, cost=cost, is_mixed_element=is_mix
-    #     )
-    #     return ability
-
-    # @staticmethod
-    # def get_ability_points_costs(ability_points: int, rarity_index: int) -> list[str]:
-    #     # Determine how many abilities the card will have, and how many points each ability will cost.
-    #     if ability_points >= 6:
-    #         return [4, ability_points - 4]
-    #     elif ability_points >= 4:
-    #         first_ability_cost = random.choice([3, 4])
-    #         if first_ability_cost == 4:
-    #             return [4]
-    #         else:
-    #             return [first_ability_cost, ability_points - first_ability_cost]
-    #     elif ability_points == 3:
-    #         if rarity_index < 1:
-    #             return [2, 1]
-    #         else:
-    #             return [3] if random.random() < 0.5 else [2, 1]
-    #     else:
-    #         return [ability_points]
